@@ -1,0 +1,13 @@
+ func add(x : int32) -> int32
+  [
+	let value : int32 = 35;
+	value = value + x;
+ 	return value;
+  ]
+ 
+  func main()
+  [
+  let sum : int32 = 0;
+  sum = add(2) + 5;
+  print "sum=" , sum;
+  ]
